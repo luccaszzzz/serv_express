@@ -44,8 +44,8 @@ module.exports = app => {
         app.db('usuarios')
             .where({idusuario: req.body.idusuario})
             .then(user => {
-                console.log(user.lenght)
-                if(user.lenght > 0){
+                console.log(user.length)
+                if(user.length > 0){
                     res.json(user[0])
                 }else{
                     res.json(
