@@ -3,13 +3,13 @@
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
-module.exports = {
+ module.exports = {
 
   client: 'pg',
   connection: {
     database: 'sistautbd',
     user:     'postgres',
-    password: '1234'
+    password: '123456'
   },
   pool: {
     min: 2,
